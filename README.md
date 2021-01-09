@@ -104,4 +104,6 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Explain the difference between Relational Databases and SQL.
 2. Why do tables need a Primary Key?
 3. What is the name given to a table column that references the Primary Key on another table?
+a: foreign-key
 4. What do we need in order to have a _many to many_ relationship between two tables?
+a join table that holds the foreign-key pointing to the primary-key of each table plus any other relationship between those 2 tables in the many to many relationship
