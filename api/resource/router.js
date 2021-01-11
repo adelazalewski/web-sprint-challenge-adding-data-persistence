@@ -24,5 +24,13 @@ res.status(201).json(newResource)
         next(err)
     }
 })
+router.get("/resources/:id/projects", async (req, res, next) => {
+    try{
+const resourceProjects = await model.findProjects(req.params.id)
+res.json(resourceProjects)
+    }catch(err){
+        next(err)
+    }
+})
 
 module.exports = router;
