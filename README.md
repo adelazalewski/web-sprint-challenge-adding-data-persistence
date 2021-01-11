@@ -102,6 +102,13 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+a: rdbms is a database software which manages storage, querying, updating and so on. rdbms uses a relational model of data. sql is just the language which is used to query the rdbms.
+
 2. Why do tables need a Primary Key?
+a:   A primary key is a table column that serves a special purpose. Each database table needs a primary key because it ensures row-level accessibility.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+a: foreign-key
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+a: join table that holds the foreign-key pointing to the primary-key of each table plus any other relationship between those 2 tables in the many to many relationship
